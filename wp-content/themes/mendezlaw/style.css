@@ -44,17 +44,49 @@ body .container img {
   height: auto;
 }
 
+header {
+  font-family: "Roboto", sans-serif;
+  padding: 15px 30px;
+}
 header a {
-  color: #212529;
+  color: #707070;
+}
+header #logo img {
+  width: 100%;
+  max-width: 155px;
+}
+header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 100%;
+}
+header ul li {
+  display: inline-block;
+  margin: 0;
+}
+header ul li a {
+  text-decoration: none;
+  padding: 10px 20px;
+  display: block;
+  font-size: 20px;
+  color: #707070;
+  font-weight: 500;
+  transition: all 0.15s linear;
+}
+header ul li:hover a {
+  text-decoration: none;
+  color: #3661ac;
+  transition: all 0.15s linear;
 }
 
 footer {
   margin-top: 30px;
   padding: 30px 0;
-  background: #4e7ac7;
+  background: #707070;
 }
 footer p {
-  color: #efded2;
+  color: #ffffff;
   margin: 15px 0;
   font-size: 14px;
   font-weight: 500;
@@ -80,42 +112,6 @@ h2 {
 
 p {
   font-size: 20px;
-}
-
-/********************************************
-Navbar
-*********************************************/
-nav {
-  text-align: center;
-  width: 100%;
-  display: inline-block;
-}
-nav .nav {
-  display: block;
-}
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  width: 100%;
-}
-nav ul li {
-  display: inline-block;
-  margin: 0;
-}
-nav ul li a {
-  text-decoration: none;
-  padding: 20px;
-  display: block;
-  font-size: 20px;
-  color: #4e7ac7;
-  font-weight: 500;
-  transition: all 0.15s linear;
-}
-nav ul li:hover a {
-  text-decoration: none;
-  color: #3661ac;
-  transition: all 0.15s linear;
 }
 
 /********************************************
