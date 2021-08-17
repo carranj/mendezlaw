@@ -2,8 +2,6 @@
 wp-admin/*
 wp-includes/*
 wp-content/themes/twenty*
-wp-content/themes/custom-divi/*v
-wp-content/themes/Divi*
 wp-content/plugins
 wp-content/uploads
 wp-activate.php
@@ -27,4 +25,4 @@ license.txt
 wp-content/ai1wm-backups/*
 
 #WP-Content misc
-wp-content/themes/charisma/error_log
+wp-content/themes/mendezlaw/error_log
